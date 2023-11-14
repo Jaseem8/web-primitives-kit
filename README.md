@@ -18,3 +18,5 @@ const count = new Signal(0);
 count.subscribe((val) => console.log(`Count updated: ${val}`));
 count.set(1);
 ```
+
+<!-- Updated: debounce examples -->
