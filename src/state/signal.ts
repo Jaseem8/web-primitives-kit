@@ -369,3 +369,5 @@ export class Signal<T> {
     return () => this.listeners.delete(listener);
   }
 }
+
+// Refactored generic constraints
